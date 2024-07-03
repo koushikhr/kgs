@@ -1,0 +1,95 @@
+window.background {
+    background: #19120D;
+}
+
+
+levelbar * {
+    all: unset;
+}
+levelbar trough {
+    min-height: 0.2rem;
+    min-width: 6rem;
+    margin: 5px 6px 5px 6px;
+    border: 1px solid #2B221C;
+    border-radius: 20px;
+}
+levelbar block {
+    margin: 0;
+    padding: 4px;
+
+}
+levelbar block:nth-child(1).filled {
+    background: #F8B185;
+    border-radius: 20px 0 0 20px;
+}
+levelbar block:nth-child(1).empty {
+    background: #261E18;
+    border-radius: 20px 0 0 20px;
+}
+levelbar block:nth-child(2).filled {
+    background: #F1AC82;
+}
+levelbar block:nth-child(2).empty {
+    background: #261E18;
+}
+levelbar block:nth-child(3).filled {
+    background: #EAA77E;
+}
+levelbar block:nth-child(3).empty {
+    background: #261E18;
+}
+levelbar block:nth-child(4).filled {
+    background: #E3A27A;
+}
+levelbar block:nth-child(4).empty {
+    background: #261E18;
+}
+levelbar block:nth-child(5).filled {
+    background: #DD9D76;
+}
+levelbar block:nth-child(5).empty {
+    background: #261E18;
+}
+levelbar block:nth-child(6).filled {
+    background: #D69873;
+}
+levelbar block:nth-child(6).empty {
+    background: #261E18;
+}
+levelbar block:nth-child(7).filled {
+    background: #CF946F;
+    border-radius: 0 15px 15px 0;
+}
+levelbar block:nth-child(7).empty {
+    background: #261E18;
+    border-radius: 0 20px 20px 0;
+}
+.battery-label-style {
+    font-size: 16px;
+    margin-top: 6px;
+    margin-left: 34px;
+    color: #171717;
+    font-weight: 700;
+}
+
+.app-launch-btn {
+    margin: 4px;
+    padding: 0 4px 0 4px;
+    font-weight: 700;
+    background: transparent;
+}
+.app-launch-btn:hover {
+    background: #302A25;
+    border-radius: 20px;
+}
+
+.color-picker-icon-btn {
+    margin: 4px;
+    padding: 0 4px 0 4px;
+    font-weight: 700;
+    background: transparent;
+}
+.color-picker-icon-btn:hover {
+    background: #302A25;
+    border-radius: 20px;
+}
