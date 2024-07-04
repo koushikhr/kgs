@@ -1,6 +1,7 @@
 #ifndef BATTERY_H
 #define BATTERY_H
 
+
 // Struct to hold battery information
 struct BatteryInfo {
     int percentage;
@@ -9,5 +10,6 @@ struct BatteryInfo {
 
 // Function prototype
 struct BatteryInfo get_battery_info();
+
 
 #endif

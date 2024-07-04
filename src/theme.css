@@ -2,6 +2,27 @@ window.background {
     background: #19120D;
 }
 
+.app-launch-btn {
+    margin: 4px;
+    padding: 0 4px 0 4px;
+    font-weight: 700;
+    background: transparent;
+}
+.app-launch-btn:hover {
+    background: #302A25;
+    border-radius: 20px;
+}
+
+.color-picker-icon-btn {
+    margin: 4px;
+    padding: 0 4px 0 4px;
+    font-weight: 700;
+    background: transparent;
+}
+.color-picker-icon-btn:hover {
+    background: #302A25;
+    border-radius: 20px;
+}
 
 levelbar * {
     all: unset;
@@ -16,7 +37,6 @@ levelbar trough {
 levelbar block {
     margin: 0;
     padding: 4px;
-
 }
 levelbar block:nth-child(1).filled {
     background: #F8B185;
@@ -58,38 +78,19 @@ levelbar block:nth-child(6).empty {
 }
 levelbar block:nth-child(7).filled {
     background: #CF946F;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 20px 20px 0;
 }
 levelbar block:nth-child(7).empty {
     background: #261E18;
     border-radius: 0 20px 20px 0;
 }
-.battery-label-style {
+.battery-label {
     font-size: 16px;
     margin-top: 6px;
     margin-left: 34px;
     color: #171717;
     font-weight: 700;
-}
-
-.app-launch-btn {
-    margin: 4px;
-    padding: 0 4px 0 4px;
-    font-weight: 700;
-    background: transparent;
-}
-.app-launch-btn:hover {
-    background: #302A25;
-    border-radius: 20px;
-}
-
-.color-picker-icon-btn {
-    margin: 4px;
-    padding: 0 4px 0 4px;
-    font-weight: 700;
-    background: transparent;
-}
-.color-picker-icon-btn:hover {
-    background: #302A25;
-    border-radius: 20px;
+    text-shadow: 1px 1px 1px #CF946F;
+    /* text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000; */
+    /* text-shadow: 1px 1px 1px #000; */
 }

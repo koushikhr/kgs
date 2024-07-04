@@ -60,6 +60,7 @@ To enter DEV-Environment = {
             gtk4
             glib
             gtk4-layer-shell
+            dbus
           ];
           buildPhase = ''
             NIX_CFLAGS_COMPILE="$(pkg-config --cflags gtk4) $NIX_CFLAGS_COMPILE"

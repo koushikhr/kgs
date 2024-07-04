@@ -12,7 +12,7 @@ set_up_battery (GtkWindow *window, GtkWidget *box)
     // Get battery information
     struct BatteryInfo batteryInfo = get_battery_info();
 
-    double batteryPercentage = round (batteryInfo.percentage * 10) /100;
+    double batteryPercentage = round (batteryInfo.percentage * 7) /100;
     // Output battery percentage and status
     printf("Battery Percentage: %f\n", batteryPercentage);
     printf("Battery Status: %s\n", batteryInfo.status);
@@ -38,7 +38,7 @@ set_up_battery (GtkWindow *window, GtkWidget *box)
     
     g_object_set (batteryLabel, "halign", GTK_ALIGN_START, NULL);
     g_object_set (batteryLabel, "valign", GTK_ALIGN_START, NULL);
-    gtk_widget_add_css_class (batteryLabel, "battery-label-style");
+    gtk_widget_add_css_class (batteryLabel, "battery-label");
 
     gtk_box_append (GTK_BOX (batteryBox), batteryLabelOverlay);
     gtk_box_append (GTK_BOX (batteryBox), bar);
